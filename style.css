@@ -1,5 +1,40 @@
 body{
     background-image: url(image/fond.png);
+    margin-top: 0;
+}
+
+ul{
+    margin:0;
+    padding: 0;
+}
+
+header li{
+    display:inline-block;
+    text-align: center;
+    width:24%;
+    transform:scale(0.90);
+    transition: transform 1s ease;
+}
+       
+header{
+    background:white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow:10px 10px 10px grey;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow:10px 10px 10px grey;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 h1{
@@ -13,3 +48,18 @@ h2{
     font-size:30px;
     text-align: center;
 }
+
+header li img {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+header li:hover{
+    transform: scale(1.15);
+
+footer{
+    text-align:center;
+}
+    
+    

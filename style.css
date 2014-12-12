@@ -99,10 +99,17 @@ main ul{
 
 main li{
     margin-bottom:25px;
+    list-style: none;
 }
-    
- div.profil{
+
+.profil img{
     border-radius:50%;
     display: block;
     margin:auto;
+    padding-bottom: 60px;
+    box-shadow: 0px 0px 20px grey;
 }  
+
+.profil{
+    padding-bottom: 40px;
+}
